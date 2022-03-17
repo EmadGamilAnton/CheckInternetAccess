@@ -14,7 +14,7 @@ namespace DefaultDesign.DataAccessManager
             // This for Server configuration string 
 //sqlconnection = new SqlConnection(@"Data Source=.\,1433;Initial Catalog=san_stefanodb;User ID=e;Password=rootem");
            // Amazon
-           sqlconnection = new SqlConnection(@"Data Source=xamarin.cbmw1gn7xmp8.me-south-1.rds.amazonaws.com,1433;Database= san_stefano;User ID=rootem;Password=92702689emAD");
+           sqlconnection = new SqlConnection(@"Data Source=xamarin.cbmw1gn7xmp8.me-south-1.rds.amazonaws.com,1433;Database= san_stefano;User ID=;Password=");
         }
 
         //open connection
